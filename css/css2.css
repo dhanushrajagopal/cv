@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding:0;
+	box-sizing: border-box;
+	text-decoration: none;
+}.coverpage{
+    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url("./c1.jpg") center/cover no-repeat fixed ;
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+    color: white;
+    position:absolute;
+}
+.nav{
+	text-align: center;
+	position: relative;
+	opacity: 0.9;
+	color:white;
+	font-size: 30px;
+}
+.n1>li{
+	list-style-type: none;
+    display: inline;
+    text-decoration: none;
+}
+li a{
+	padding: 0px 2px;
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color:red;
+}
+@media screen and (max-width:1004px ){
+	a{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width:420px){
+	a{
+		font-size: 13px ;
+	}
+}
+.box{
+
+	margin: 30px;
+	background-color: #ffffff;
+	border:1px solid black;
+	opacity: 0.6;
+	text-decoration: none;
+
+}
+
+.fb{
+	color: blue;
+	font-size: 25px;
+}
+.insta{
+	color: crimson;
+	font-size: 25px;
+}
+.lind{
+	color: darkcyan;
+	font-size: 25px;
+}
+.whats{
+	color:green;
+	font-size: 25px;
+}
+.twit{
+	color: rgb(139, 240, 253);
+	font-size: 25px;
+	
+}
+.b1>li{
+    text-decoration: none;
+}
+.footer{
+	display: inline-block;
+	position: absolute;
+	bottom: 2pt;
+	left: 50%;
+	transform: translate(-50%,0%);
+	align-items: center;
+	margin: 0 auto;    
+}
+.footer>a{
+	padding-right: 10px;
+}
+.box>ul>li{
+	text-decoration: none;
+	list-style-type: none;
+}
+.email>a , .phone>a{
+	color:red;
+	padding: 0;
+}
+.email>a:hover ,.phone>a:hover{
+	color: orange;
+}
+.footer2{
+	display: block;
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	transform: translate(-50%,0);
+	align-items: center;
+	font-size: 50px;
+	
+
+}
+.footer2>a{
+	font-size: 30px;
+}
+@media screen and (max-width:750px){
+	.footer2>a{
+		font-size: 32px;
+	}
+}

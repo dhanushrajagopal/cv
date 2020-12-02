@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul,li{
+	list-style-type: none;
+	display: inline;
+}
+li a{
+	padding: 0px 5px;
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color:red;
+}
+	
+.coverpage{
+	background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url("./c1.jpg") center/cover no-repeat fixed ;
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+	color: white;
+	z-index: 0;
+	position: absolute;
+	overflow: auto;
+}
+h1{
+	transform: translate(0vw,50vh);
+	position: relative;
+	font-size: 30px;
+	text-decoration: underline;
+	opacity: 0.8;
+	
+}
+.p1{
+	transform: translate(0vw,50vh);
+	position: relative;
+	opacity: 0.8;
+}
+.nav{
+	text-align: center;
+	position: relative;
+	opacity: 0.9;
+	color:white;
+	font-size: 30px;
+}
+.profilepic{
+	position: fixed;
+	border: 2px solid rgb(110, 109, 109);
+	border-radius: 180%;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 150px;
+	width: 200px;
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("./d10.jpg") center/cover no-repeat ;
+	z-index: 1;
+}
+@media screen and (max-width:1004px ){
+	a{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width:420px){
+	a{
+		font-size: 15px ;
+	}
+}
+
+.footer{
+
+
+	position: absolute;
+	bottom: -350px;
+	left: 35px;
+	align-items: center;
+	float: left;
+
+}
+.footer:hover{
+	color:grey;
+}
+.fb{
+	color: blue;
+	font-size: 25px;
+}
+.insta{
+	color: crimson;
+	font-size: 25px;
+}
+.lind{
+	color: darkcyan;
+	font-size: 25px;
+}
+.whats{
+	color:green;
+	font-size: 25px;
+}
+.twit{
+	color: rgb(139, 240, 253);
+	font-size: 25px;
+	
+}
+footer{
+	position: relative;
+	overflow: auto;
+}
+.s1ul .hd2{
+	text-decoration: underline;
+
+
+}
+.footer{
+	display: inline-block;
+	position: absolute;
+	bottom: 2pt;
+	left: 50%;
+	transform: translate(-50%,0%);
+	align-items: center;
+	margin: 0 auto;    
+}
+.footer>a{
+	padding-right: 10px;
+}
